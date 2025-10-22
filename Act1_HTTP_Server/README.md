@@ -42,5 +42,5 @@ The server is designed to test two scenarios:
  curl -i -X POST [http://127.0.0.1:8080](http://127.0.0.1:8080)  ``` 
 * **Result:** The server should log the POST request, and the terminal should show the `HTTP/1.1 400 Bad Request` response header.
 
-<img width="1785" height="945" alt="image" src="https://github.com/user-attachments/assets/346af62b-e243-47f0-bb7b-e1d1f515e235" />
+
 
