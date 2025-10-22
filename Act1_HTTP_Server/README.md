@@ -31,6 +31,7 @@ The server is designed to test two scenarios:
 #### A. Test 1: 200 OK (Successful GET Request) 
 * **Action:** Open a web browser (Chrome, Firefox, etc.) and go to:  `http://127.0.0.1:8080` 
 * **Result:** The server should log the GET request, and the browser should display the "Success!" HTML body.
+  
   <img width="1177" height="345" alt="image" src="https://github.com/user-attachments/assets/b71d5563-0fdd-4dd4-9790-fcd1325dee1a" />
 
 
@@ -38,4 +39,7 @@ The server is designed to test two scenarios:
 * **Action:** Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
  ```bash 
  curl -i -X POST [http://127.0.0.1:8080](http://127.0.0.1:8080)  ``` 
-* **Result:** The server should log the POST request, and the terminal should show the `HTTP/1.1 400 Bad Request` response header. 
+* **Result:** The server should log the POST request, and the terminal should show the `HTTP/1.1 400 Bad Request` response header.
+
+<img width="1785" height="945" alt="image" src="https://github.com/user-attachments/assets/346af62b-e243-47f0-bb7b-e1d1f515e235" />
+
