@@ -35,6 +35,7 @@ The server is designed to test two scenarios:
   <img width="1177" height="345" alt="image" src="https://github.com/user-attachments/assets/b71d5563-0fdd-4dd4-9790-fcd1325dee1a" />
 
 
+
 #### B. Test 2: 400 Bad Request (Invalid/Unsupported Request) 
 * **Action:** Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
  ```bash 
