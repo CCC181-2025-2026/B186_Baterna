@@ -25,7 +25,9 @@ This server was built to demonstrate fundamental socket programming in C, specif
  ```bash 
  ./http_server.exe 
  ``` 
- The console will display: `Server listening on port 8080...` ### Testing
+ The console will display: `Server listening on port 8080...` 
+ 
+### Testing
 The server is designed to test two scenarios: 
 
 #### A. Test 1: 200 OK (Successful GET Request) 
@@ -35,7 +37,6 @@ The server is designed to test two scenarios:
   <img width="1177" height="345" alt="image" src="https://github.com/user-attachments/assets/b71d5563-0fdd-4dd4-9790-fcd1325dee1a" />
 
 
-
 #### B. Test 2: 400 Bad Request (Invalid/Unsupported Request) 
 * **Action:** Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
  ```bash 
@@ -43,4 +44,4 @@ The server is designed to test two scenarios:
 * **Result:** The server should log the POST request, and the terminal should show the `HTTP/1.1 400 Bad Request` response header.
 
 
-
+<img width="1785" height="945" alt="image" src="https://github.com/user-attachments/assets/30621633-7441-4461-9fe2-d3a6db48f79c" />
