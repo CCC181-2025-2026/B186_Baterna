@@ -27,6 +27,9 @@ This server was built to demonstrate fundamental socket programming in C, specif
  ``` 
  The console will display: `Server listening on port 8080...` 
 
+ <img width="1166" height="297" alt="image" src="https://github.com/user-attachments/assets/88e4e888-6fbd-4d90-a998-ed752baa9e12" />
+
+
 ### Testing
 The server is designed to test two scenarios: 
 
