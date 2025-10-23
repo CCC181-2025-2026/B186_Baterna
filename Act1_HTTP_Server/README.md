@@ -26,7 +26,7 @@ This server was built to demonstrate fundamental socket programming in C, specif
  ./http_server.exe 
  ``` 
  The console will display: `Server listening on port 8080...` 
- 
+
 ### Testing
 The server is designed to test two scenarios: 
 
