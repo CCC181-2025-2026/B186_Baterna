@@ -1,12 +1,12 @@
 # Act1_HTTP_Server 
-## �� Activity Partners 
+## Activity Partners 
 | Role | Name | 
 | :--- | :--- |
 | Lead Coder | [Regine Baterna- Lead Person] | 
 | Documenter | [Arianne Mecarsos - Documenter] | 
-## �� Objective 
+## Objective 
 This server was built to demonstrate fundamental socket programming in C, specifically handling simple HTTP GET requests and responding with 200 OK or 400 Bad Request status codes, compiled using MinGW and the Winsock API. 
-## �� How to Run the Server (Full Documentation) 
+## How to Run the Server (Full Documentation) 
 ### Prerequisites 
 1. **GCC/MinGW:** Installed and configured in the system PATH (verified with `gcc --version`). 
 2. **Git:** Installed for version control. 
@@ -31,18 +31,18 @@ This server was built to demonstrate fundamental socket programming in C, specif
 The server is designed to test two scenarios: 
 
 #### A. Test 1: 200 OK (Successful GET Request) 
-* **Action:** Open a web browser (Chrome, Firefox, etc.) and go to:  `http://127.0.0.1:8080` 
-* **Result:**
+* Action: Open a web browser (Chrome, Firefox, etc.) and go to:  `http://127.0.0.1:8080` 
+* Result:
   
   <img width="1177" height="345" alt="image" src="https://github.com/user-attachments/assets/b71d5563-0fdd-4dd4-9790-fcd1325dee1a" />
 
 
 #### B. Test 2: 400 Bad Request (Invalid/Unsupported Request) 
-* **Action:** Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
+* Action: Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
  ```bash 
  curl -i -X POST [http://127.0.0.1:8080](http://127.0.0.1:8080)  ```
 
-* **Result:**
+
+
+* Result:
 <img width="1785" height="945" alt="image" src="https://github.com/user-attachments/assets/30621633-7441-4461-9fe2-d3a6db48f79c" />
-
-
