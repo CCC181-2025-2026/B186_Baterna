@@ -1,4 +1,11 @@
 # Act1_HTTP_Server 
+
+![Alt](https://img.shields.io/badge/Checked-Please_Revise-red)
+## // Revise this section to handle proper 404 and 200 request
+```c
+ /*Line 43*/       if (strncmp(buffer, "GET ", 4) == 0) {
+ /*Line 44*/       // --- 200 OK Response ---
+```
 ## Activity Partners 
 | Role | Name | 
 | :--- | :--- |
