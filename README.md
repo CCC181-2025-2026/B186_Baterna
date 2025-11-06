@@ -36,6 +36,8 @@ The server is designed to test two scenarios:
 
 #### B. Test 2: 400 Bad Request (Invalid/Unsupported Request) 
 <img width="1785" height="945" alt="image" src="https://github.com/user-attachments/assets/36236c85-b3eb-41cd-9861-c772281b02dc" />
+
+
 * **Action:** Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
  ```bash 
  curl -i -X POST [http://127.0.0.1:8080](http://127.0.0.1:8080)  ``` 
