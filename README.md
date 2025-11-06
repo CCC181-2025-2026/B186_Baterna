@@ -29,15 +29,18 @@ This server was built to demonstrate fundamental socket programming in C, specif
 The server is designed to test two scenarios: 
 
 #### A. Test 1: 200 OK (Successful GET Request) 
-* **Action:** Open a web browser (Chrome, Firefox, etc.) and go to:  `http://127.0.0.1:8080` 
-* **Result:** The server should log the GET request, and the browser should display the "Success!" HTML body. 
 <img width="1177" height="345" alt="image" src="https://github.com/user-attachments/assets/3ba308b4-1633-4fd2-aeeb-59040fc4740a" />
 
+* **Action:** Open a web browser (Chrome, Firefox, etc.) and go to:  `http://127.0.0.1:8080` 
+* **Result:** The server should log the GET request, and the browser should display the "Success!" HTML body. 
+
 #### B. Test 2: 400 Bad Request (Invalid/Unsupported Request) 
+<img width="1785" height="945" alt="image" src="https://github.com/user-attachments/assets/36236c85-b3eb-41cd-9861-c772281b02dc" />
 * **Action:** Use a terminal tool like `curl` to send an unsupported method (e.g., POST): 
  ```bash 
  curl -i -X POST [http://127.0.0.1:8080](http://127.0.0.1:8080)  ``` 
 * **Result:** The server should log the POST request, and the terminal should show the `HTTP/1.1 400 Bad Request` response header. 
 
-<img src="https://github.com/CCC181-2025-2026/B186_Baterna/blob/master/images/400bad%20request.png?raw=true" alt="400 Bad Request" width="600">
+
+
 
