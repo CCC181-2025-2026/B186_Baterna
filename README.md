@@ -3,7 +3,8 @@
 | Role | Name | 
 | :--- | :--- |
 | Lead Coder | [Regine Baterna] | 
-| Documenter | [Arianne Mecarsos] | 
+| Coder      | [Arianne Mecarsos] 
+| Documenter | [John Benedict Bernal]
 ## �� Objective 
 This server was built to demonstrate fundamental socket programming in C, specifically handling simple HTTP GET requests and responding with 200 OK or 400 Bad Request status codes, compiled using MinGW and the Winsock API. 
 ## �� How to Run the Server (Full Documentation) 
